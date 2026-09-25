@@ -7,7 +7,7 @@ age = st.slider("Сколько тебе лет?", min_value=0, max_value=100, v
 
 if st.button("Проверить доступ"):
     if age == 18:
-        st.balloon()
+        st.balloons()
         st.success(f"Ого, {name}, тебе как раз 18! Добро пожаловать во взрослую жизнь! 🥳")
     elif age > 18:
         st.success(f"Привет, {name}! Доступ разрешен. 👍")
