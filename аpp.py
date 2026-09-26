@@ -174,7 +174,7 @@ for i in range(20):
 ''')
         
         html_pattern = '<div style="text-align:center;"><svg width="200" height="200" viewBox="0 0 200 200">'
-        for r in range(0, 360, 18):
+        for r in range(0, 360, 2):
             html_pattern += f'<rect x="50" y="50" width="100" height="100" fill="none" stroke="#00c04b" stroke-width="1.5" transform="rotate({r} 100 100)"/>'
         html_pattern += '</svg></div>'
         st.markdown(html_pattern, unsafe_allow_html=True)
