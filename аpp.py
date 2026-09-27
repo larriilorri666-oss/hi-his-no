@@ -178,4 +178,3 @@ for i in range(20):
             html_pattern += f'<rect x="50" y="50" width="100" height="100" fill="none" stroke="#00c04b" stroke-width="1.5" transform="rotate({r} 100 100)"/>'
         html_pattern += '</svg></div>'
         st.markdown(html_pattern, unsafe_allow_html=True)
-i
