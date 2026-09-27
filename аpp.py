@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 
 # Создаем меню в выдвижной панели слева
 page = st.sidebar.selectbox("Выберите раздел:", [
